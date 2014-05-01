@@ -1,0 +1,14 @@
+Source: mkos-beaglexm
+Section: devel
+Priority: extra
+Maintainer: Bill Gatliff <bgat@billgatliff.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.4
+Vcs-Git: http://git.pragmatux.org/mkos-beaglexm.git
+Vcs-Browser: http://git.pragmatux.org/mkos-beaglexm.git
+
+Package: mkos-beaglexm
+Architecture: all
+Depends: multistrap, ${misc:Depends}
+Description: Make filesystem images for Beagleboard XM
+ Builds filesystem images for Beagleboard XM using multistrap.

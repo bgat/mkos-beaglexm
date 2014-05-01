@@ -1,0 +1,2 @@
+mkos-beaglexm usr/bin
+default.mstrap preferences usr/share/mkos-beaglexm

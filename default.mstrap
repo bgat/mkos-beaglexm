@@ -13,7 +13,7 @@ aptpreferences=/usr/share/mkos-beaglexm/preferences
 source=http://packages.pragmatux.org/device
 suite=3.0
 components=main
-packages={{package}}
+packages={{device-package}}
 
 [emdebian]
 source=http://emdebian.org/grip

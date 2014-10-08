@@ -9,6 +9,6 @@ Vcs-Browser: http://git.pragmatux.org/mkos-beaglexm.git
 
 Package: mkos-beaglexm
 Architecture: all
-Depends: multistrap, kpartx, parted, e2fsprogs, dosfstools, ${misc:Depends}
+Depends: mkos-mlo-common, ${misc:Depends}
 Description: Make filesystem images for Beagleboard XM
  Builds filesystem images for Beagleboard XM using multistrap.
